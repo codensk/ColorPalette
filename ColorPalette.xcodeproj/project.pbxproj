@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A24242AA2669C5B6003B0B32 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24242A92669C5B6003B0B32 /* HomeViewController.swift */; };
+		A24242AE2669D9F7003B0B32 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24242AD2669D9F7003B0B32 /* Picker.swift */; };
 		A25818BB2657635000DAEE18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25818BA2657635000DAEE18 /* AppDelegate.swift */; };
 		A25818BD2657635000DAEE18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25818BC2657635000DAEE18 /* SceneDelegate.swift */; };
-		A25818BF2657635000DAEE18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25818BE2657635000DAEE18 /* ViewController.swift */; };
+		A25818BF2657635000DAEE18 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25818BE2657635000DAEE18 /* PickerViewController.swift */; };
 		A25818C22657635000DAEE18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25818C02657635000DAEE18 /* Main.storyboard */; };
 		A25818C42657635400DAEE18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25818C32657635400DAEE18 /* Assets.xcassets */; };
 		A25818C72657635400DAEE18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25818C52657635400DAEE18 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A24242A92669C5B6003B0B32 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A24242AD2669D9F7003B0B32 /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
 		A25818B72657635000DAEE18 /* ColorPalette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPalette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25818BA2657635000DAEE18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A25818BC2657635000DAEE18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A25818BE2657635000DAEE18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A25818BE2657635000DAEE18 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		A25818C12657635000DAEE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A25818C32657635400DAEE18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A25818C62657635400DAEE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +41,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A24242A42669C50B003B0B32 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A25818BE2657635000DAEE18 /* PickerViewController.swift */,
+				A24242A92669C5B6003B0B32 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A24242A52669C51B003B0B32 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A25818BA2657635000DAEE18 /* AppDelegate.swift */,
+				A25818BC2657635000DAEE18 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A24242A62669C528003B0B32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A25818C32657635400DAEE18 /* Assets.xcassets */,
+				A25818C82657635400DAEE18 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A24242A72669C55C003B0B32 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A25818C02657635000DAEE18 /* Main.storyboard */,
+				A25818C52657635400DAEE18 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A24242A82669C567003B0B32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A24242AD2669D9F7003B0B32 /* Picker.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A25818AE2657635000DAEE18 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +104,11 @@
 		A25818B92657635000DAEE18 /* ColorPalette */ = {
 			isa = PBXGroup;
 			children = (
-				A25818BA2657635000DAEE18 /* AppDelegate.swift */,
-				A25818BC2657635000DAEE18 /* SceneDelegate.swift */,
-				A25818BE2657635000DAEE18 /* ViewController.swift */,
-				A25818C02657635000DAEE18 /* Main.storyboard */,
-				A25818C32657635400DAEE18 /* Assets.xcassets */,
-				A25818C52657635400DAEE18 /* LaunchScreen.storyboard */,
-				A25818C82657635400DAEE18 /* Info.plist */,
+				A24242A82669C567003B0B32 /* Models */,
+				A24242A72669C55C003B0B32 /* Storyboards */,
+				A24242A52669C51B003B0B32 /* Application */,
+				A24242A62669C528003B0B32 /* Resources */,
+				A24242A42669C50B003B0B32 /* ViewControllers */,
 			);
 			path = ColorPalette;
 			sourceTree = "<group>";
@@ -137,9 +183,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A25818BF2657635000DAEE18 /* ViewController.swift in Sources */,
+				A25818BF2657635000DAEE18 /* PickerViewController.swift in Sources */,
 				A25818BB2657635000DAEE18 /* AppDelegate.swift in Sources */,
 				A25818BD2657635000DAEE18 /* SceneDelegate.swift in Sources */,
+				A24242AE2669D9F7003B0B32 /* Picker.swift in Sources */,
+				A24242AA2669C5B6003B0B32 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HP2GYZ69BY;
-				INFOPLIST_FILE = ColorPalette/Info.plist;
+				INFOPLIST_FILE = ColorPalette/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HP2GYZ69BY;
-				INFOPLIST_FILE = ColorPalette/Info.plist;
+				INFOPLIST_FILE = ColorPalette/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
