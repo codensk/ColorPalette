@@ -95,11 +95,13 @@ class PickerViewController: UIViewController {
     
     private func configurePickerControls(picker: Picker) {
         let colorValueInputs = [redValueInput, greenValueInput, blueValueInput]
+        
         var pickerRedValue: CGFloat = 0
         var pickerGreenValue: CGFloat = 0
         var pickerBlueValue: CGFloat = 0
         var pickerAlphaValue: CGFloat = 0
-        
+       
+        // color inputs configure
         colorValueInputs.forEach { input in
             let keyboardToolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 44))
             let flexBarButton = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)

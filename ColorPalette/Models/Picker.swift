@@ -1,6 +1,6 @@
 //
 //  Color.swift
-//  ColorPalette
+//  Picker
 //
 //  Created by SERGEY VOROBEV on 04.06.2021.
 //
